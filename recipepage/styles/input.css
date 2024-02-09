@@ -41,7 +41,7 @@
     }
 
     section {
-        @apply mt-[30px];
+        @apply my-[30px];
     }
 }
 
