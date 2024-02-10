@@ -13,16 +13,22 @@
     <link rel="stylesheet" href="./styles/output.css" />
   </head>
 
-  <body>
-    <div class="md:w-1/3 md:p-4 mx-auto bg-White">
+  <body class="bg-white md:bg-Eggshell md:p-10">
+    <div class="md:w-[500px] md:p-6 mx-auto bg-White md:rounded-xl">
       <div class="w-full">
-        <img src="./assets/images/image-omelette.jpeg" alt="" />
+        <img
+          src="./assets/images/image-omelette.jpeg"
+          alt=""
+          class="md:rounded-md"
+        />
       </div>
 
-      <main class="m-[30px]">
+      <main class="m-[30px] md:m-0">
         <section>
           <div>
-            <h1 class="heading text-[35px] leading-9">
+            <h1
+              class="heading text-[35px] md:text-[25px] leading-9 md:leading-none"
+            >
               Simple Omelette Recipe
             </h1>
             <p class="text__para mt-[30px]">
@@ -46,7 +52,7 @@
           </div>
 
           <div class="flex flex-col gap-2">
-            <h2 class="heading text-[28px]">Ingredients</h2>
+            <h2 class="heading__two text-[28px] md:text-[23px]">Ingredients</h2>
             <ul class="list-disc text__para px-8 flex flex-col gap-2">
               <li>2-3 large eggs</li>
               <li>Salt, to taste</li>
@@ -63,7 +69,9 @@
 
         <section>
           <div class="flex flex-col gap-2">
-            <h2 class="heading text-[28px]">Instructions</h2>
+            <h2 class="heading__two text-[28px] md:text-[23px]">
+              Instructions
+            </h2>
             <ul class="list-decimal text__para px-8 flex flex-col gap-2">
               <li>
                 <span class="font-bold">Beat the eggs:</span>
@@ -101,14 +109,62 @@
             </ul>
           </div>
         </section>
-      </main>
-    </div>
 
-    <div class="attribution text__para">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/fitronansori">Fitron Ansori</a>.
+        <hr class="my-[30px]" />
+
+        <section>
+          <div class="flex flex-col gap-2">
+            <h2 class="heading__two text-[28px] md:text-[23px]">Nutrition</h2>
+            <p class="text__para">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+          </div>
+
+          <table class="w-full mt-[28px] text-center">
+            <tr>
+              <td class="border-b text__para border-b-WengeBrown">Calories</td>
+              <td
+                class="border-b border-b-WengeBrown font-bold text__para text-Nutmeg"
+              >
+                277kcal
+              </td>
+            </tr>
+            <tr>
+              <td class="border-b border-b-WengeBrown text__para">Carbs</td>
+              <td
+                class="border-b border-b-WengeBrown font-bold text__para text-Nutmeg"
+              >
+                0g
+              </td>
+            </tr>
+            <tr>
+              <td class="border-b text__para border-b-WengeBrown">Protein</td>
+              <td
+                class="border-b border-b-WengeBrown font-bold text__para text-Nutmeg"
+              >
+                20g
+              </td>
+            </tr>
+            <tr>
+              <td class="border-b border-b-WengeBrown text__para">Fat</td>
+              <td
+                class="border-b border-b-WengeBrown font-bold text__para text-Nutmeg"
+              >
+                22g
+              </td>
+            </tr>
+          </table>
+        </section>
+      </main>
+
+      <div class="attribution text__para mx-[30px] mt-5 text-center">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. <br />
+        Coded by <a href="https://github.com/fitronansori">Fitron Ansori</a>.
+      </div>
     </div>
   </body>
 </html>

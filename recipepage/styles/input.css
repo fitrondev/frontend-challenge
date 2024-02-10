@@ -34,6 +34,15 @@
     color: var(--DarkCharcoal);
 }
 
+.heading__two {
+    font-family: var(--youngserif);
+    color: var(--Nutmeg);
+}
+tr,td {
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+} 
+
 
 @layer base {
     html {
