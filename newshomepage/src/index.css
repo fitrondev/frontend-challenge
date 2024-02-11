@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    @apply font-Inter scroll-smooth antialiased;
+  }
+
+  body {
+    @apply bg-white text-Verydarkblue;
+  }
+
+  p {
+    @apply text-[15px];
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-full mx-auto px-4;
+  }
+}
