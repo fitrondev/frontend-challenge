@@ -26,6 +26,6 @@
 
 @layer components {
   .container {
-    @apply max-w-full mx-auto px-4;
+    @apply max-w-full lg:w-[1440px] mx-auto px-4;
   }
 }
