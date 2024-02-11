@@ -19,6 +19,8 @@ export default {
       'Inter': ['Inter', 'sans-serif'],
     },
   },
-  plugins: [],
+  plugins: [
+    import('tailwindcss-animated')
+  ],
 }
 

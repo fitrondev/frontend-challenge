@@ -13,7 +13,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="flex justify-between items-center h-14 lg:h-32 py-4 my-4">
+    <div className="flex justify-between items-center h-14 lg:h-20 py-4 my-4">
       <div className="">
         <img src={Logo} alt="" />
       </div>
@@ -33,8 +33,8 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="bg-black w-full bg-opacity-50 absolute right-0 top-0 h-screen z-40">
-          <div className="bg-white w-[70%] absolute right-0 top-0 h-screen z-50">
+        <div className="bg-black w-full bg-opacity-50 absolute right-0 top-0 h-screen z-40 animate-fade-left animate-once animate-duration-500 animate-ease-linear">
+          <div className="bg-white w-[70%] absolute right-0 top-0 h-screen z-50 animate-fade-left animate-once animate-duration-500 animate-ease-linear">
             <div className="">
               <img
                 src={CloseMenu}
