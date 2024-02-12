@@ -24,7 +24,7 @@ const HeroSection = () => {
             really fulfilling its promise?
           </p>
 
-          <button className="max-w-max px-14 py-4 bg-Softred uppercase text-white tracking-[2px] lg:mt-8">
+          <button className="max-w-max px-14 py-4 bg-Softred uppercase text-white tracking-[2px] lg:mt-8 hover:bg-Verydarkblue transition-all duration-500 ease-in-out">
             Read More
           </button>
         </div>

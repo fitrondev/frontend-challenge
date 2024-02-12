@@ -22,7 +22,7 @@ const Articles = () => {
       </div>
       <div className="w-[330px] flex items-center justify-between gap-5">
         <div>
-          <img src={news2} alt="" className="w-[160px] lg:w-full  h-full" />
+          <img src={news2} alt="" className="w-[160px] lg:w-[170px]  h-full" />
         </div>
         <div className="flex flex-col gap-2">
           <span className="text-Darkgrayishblue text-[32px] font-bold">02</span>
