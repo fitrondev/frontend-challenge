@@ -8,7 +8,7 @@ export default function App() {
     <h1 className="container">
       <Navbar />
       <main>
-        <div className="lg:flex lg:gap-8 lg:h-[610px]">
+        <div className="lg:flex lg:gap-8 lg:h-[545px]">
           <HeroSection />
           <NewArticles />
         </div>
