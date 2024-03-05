@@ -8,6 +8,7 @@ export default {
         secodary: "#2F327D",
         gray: "#696984",
         grayLight: "#CECECE",
+        black: "#222224",
       },
     },
   },
