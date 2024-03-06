@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // Components
 import Menu from "./Menu";
@@ -13,13 +13,32 @@ import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [scroll, setScroll] = useState(false);
 
   const handleOpen = () => {
     setOpen(!open);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setScroll(true);
+      } else {
+        setScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [scroll]);
+
   return (
-    <header className="relative py-2 lg:pt-10">
+    <header
+      className={`relative py-2 lg:pt-10 ${
+        scroll &&
+        "lg:pt-2 bg-white sticky top-0 left-0 shadow-sm transition-all duration-300 ease-in-out z-[100]"
+      }`}
+    >
       <div className="container flex items-center justify-between">
         <div>
           <img src={Logo} alt="" className="h-10 sm:h-full" />
