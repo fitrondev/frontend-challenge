@@ -9,7 +9,7 @@ import Ellipse2 from "../../assets/images/Ellipse2.svg";
 
 const Hero = () => {
   return (
-    <section className="relative pt-4 pb-8 lg:pt-[33px] lg:pb-[64px] overflow-hidden">
+    <section className="relative pt-4 pb-8 lg:pt-[33px] overflow-hidden">
       <div className="hidden lg:block absolute -left-[375px] 2xl:-left-[280px] top-[80px] -z-10">
         <img src={Ellipse1} alt="" />
       </div>
