@@ -19,22 +19,25 @@ const Navbar = () => {
   };
 
   return (
-    <header className="relative py-2 shadow-sm">
+    <header className="relative py-2 lg:pt-10">
       <div className="container flex items-center justify-between">
         <div>
-          <img src={Logo} alt="" className="h-10 lg:h-[66px] lg:w-[180px]" />
+          <img src={Logo} alt="" className="h-10 sm:h-full" />
         </div>
 
-        <div className="lg:hidden cursor-pointer" onClick={handleOpen}>
+        <div
+          className="lg:hidden cursor-pointer select-none"
+          onClick={handleOpen}
+        >
           {!open ? (
-            <HiMenuAlt3 className="h-6 w-6 text-secodary" />
+            <HiMenuAlt3 className="h-6 w-6 sm:h-10 sm:w-10 text-secodary" />
           ) : (
-            <IoClose className="h-6 w-6 text-primary" />
+            <IoClose className="h-6 w-6 sm:h-10 sm:w-10 text-primary" />
           )}
         </div>
 
         {open && (
-          <div className="absolute w-5/6 h-screen bg-secodary top-[58px] right-0 flex justify-start items-center pl-5">
+          <div className="absolute w-5/6 sm:w-3/6 h-screen bg-secodary top-[58px] sm:top-[70px] right-0 flex justify-start items-center pl-5 z-50">
             <MobileMenu />
           </div>
         )}
