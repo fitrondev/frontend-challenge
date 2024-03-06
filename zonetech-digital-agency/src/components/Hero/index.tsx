@@ -20,8 +20,8 @@ const Hero = () => {
 
       <div className="container flex flex-col lg:flex-row gap-[30px] lg:gap-[100px]">
         <div className="flex flex-col justify-center gap-3 lg:gap-[22px]">
-          <h1 className="text-[40px] leading-[50px] lg:text-[64px] lg:leading-[80px] font-bold text-secodary">
-            Create your Success <span className="text-primary">Bussiness</span>
+          <h1 className="text-[40px] leading-[50px] lg:text-[64px] lg:leading-[80px] font-montserrat font-bold text-blueDark">
+            Create your Success <span className="text-yellow">Bussiness</span>
           </h1>
 
           <p className="text-[14px] md:text-base sm:w-[550px] lg:w-full">
@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
 
             <div className="space-y-1">
-              <h3 className="text-base font-semibold text-black">
+              <h3 className="text-base font-semibold text-textBlack">
                 Customer Reviews
               </h3>
               <div className="inline-flex gap-1">

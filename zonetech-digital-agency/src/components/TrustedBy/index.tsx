@@ -6,8 +6,8 @@ const TrustedBy = () => {
     <section className="py-16">
       <div className="container space-y-6 lg:space-y-[48px]">
         <div>
-          <h3 className="text-center text-base sm:text-[22px] text-secodary">
-            Trusted by <span className="text-primary">100+ Companies</span>{" "}
+          <h3 className="text-center text-base sm:text-[22px] text-blueDark">
+            Trusted by <span className="text-yellow">100+ Companies</span>{" "}
             Worldwide
           </h3>
         </div>

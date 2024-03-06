@@ -30,14 +30,14 @@ const Navbar = () => {
           onClick={handleOpen}
         >
           {!open ? (
-            <HiMenuAlt3 className="h-6 w-6 sm:h-10 sm:w-10 text-secodary" />
+            <HiMenuAlt3 className="h-6 w-6 sm:h-10 sm:w-10 text-blueDark" />
           ) : (
-            <IoClose className="h-6 w-6 sm:h-10 sm:w-10 text-primary" />
+            <IoClose className="h-6 w-6 sm:h-10 sm:w-10 text-yellow" />
           )}
         </div>
 
         {open && (
-          <div className="absolute w-5/6 sm:w-3/6 h-screen bg-secodary top-[58px] sm:top-[70px] right-0 flex justify-start items-center pl-5 z-50">
+          <div className="absolute w-5/6 sm:w-3/6 h-screen bg-blueDark top-[58px] sm:top-[70px] right-0 flex justify-start items-center pl-5 z-50">
             <MobileMenu />
           </div>
         )}

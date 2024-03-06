@@ -4,7 +4,7 @@ import { NavMenu } from "../../constants/NavMenu";
 const MobileMenu = () => {
   return (
     <nav className="">
-      <ul className="text-primary text-2xl sm:text-4xl space-y-4 sm:space-y-8">
+      <ul className="text-yellow text-2xl sm:text-4xl space-y-4 sm:space-y-8">
         {NavMenu.map((item) => (
           <li
             key={item.id}
