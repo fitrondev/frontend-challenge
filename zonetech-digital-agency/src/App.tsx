@@ -1,10 +1,13 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <main className="container"></main>
+      <main>
+        <Hero />
+      </main>
     </>
   );
 };
