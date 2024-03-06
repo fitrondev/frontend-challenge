@@ -28,12 +28,16 @@ body {
   }
 
   body {
-    @apply text-gray;
+    @apply text-blueGray;
   }
 }
 
 @layer components {
   .btn {
-    @apply py-2 px-5 sm:px-9 sm:py-4 bg-primary text-white sm:font-medium rounded-full hover:opacity-80 transition-all duration-300 ease-in-out;
+    @apply py-2 px-5 sm:px-9 sm:py-4 bg-yellow text-white sm:font-medium rounded-full hover:opacity-80 transition-all duration-300 ease-in-out;
+  }
+
+  .btn__secondary {
+    @apply py-2 px-5 bg-white border-2 border-textBlack text-textBlack sm:font-medium rounded-full hover:bg-textBlack hover:text-white transition-all duration-300 ease-in-out;
   }
 }
