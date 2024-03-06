@@ -7,7 +7,7 @@ import Rocket from "../../assets/images/Rocket.svg";
 const OurServices = () => {
   return (
     <section className="pt-16 pb-5">
-      <div className="container space-y-14 lg:space-y-36">
+      <div className="container space-y-14 sm:space-y-28 lg:space-y-36">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-[30px] md:text-[36px] font-bold text-blueDark">
             Our <span className="text-yellow">Services</span>
@@ -19,7 +19,7 @@ const OurServices = () => {
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row items-center justify-center gap-12 lg:gap-[100px]">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-12 sm:gap-16 md:gap-[100px]">
           <ServicesCard
             image={Shopify}
             backgorund="bg-blueDark"

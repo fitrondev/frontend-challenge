@@ -11,9 +11,9 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
   title,
 }) => {
   return (
-    <Card className="w-full h-[290px] md:w-[463px] md:h-[330px] flex flex-col items-center gap-5 border-2 border-solid border-[#f3f4f5] pt-12 lg:pt-[88px] px-8 shadow-sm lg:shadow-lg rounded-xl">
+    <Card className="w-full h-[290px] sm:w-[463px] sm:h-[330px] flex flex-col items-center gap-5 border-2 border-solid border-[#f3f4f5] pt-12 sm:pt-[88px] px-8 shadow-sm sm:shadow-lg rounded-xl">
       <div
-        className={`absolute -top-[35px] left-[120px] md:-top-[51px] md:left-[181px] ${backgorund} w-[70px] h-[70px] md:w-[100px] md:h-[100px] flex justify-center items-center rounded-full`}
+        className={`absolute -top-[35px] sm:-top-[51px] md:left-[121px] lg:left-[181px] ${backgorund} w-[70px] h-[70px] sm:w-[100px] sm:h-[100px] flex justify-center items-center rounded-full`}
       >
         <img src={image} alt="" className="w-10 h-10 md:w-14 md:h-14" />
       </div>
