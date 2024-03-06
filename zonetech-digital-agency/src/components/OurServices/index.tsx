@@ -6,7 +6,7 @@ import Rocket from "../../assets/images/Rocket.svg";
 
 const OurServices = () => {
   return (
-    <section className="pt-16 pb-5">
+    <section className="pt-16 pb-5" id="2">
       <div className="container space-y-14 sm:space-y-28 lg:space-y-36">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-[30px] md:text-[36px] font-bold text-blueDark">
