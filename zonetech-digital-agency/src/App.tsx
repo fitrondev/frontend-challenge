@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurServices from "./components/OurServices";
+import Testimonials from "./components/Testomonials";
 import TrustedBy from "./components/TrustedBy";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <Hero />
         <TrustedBy />
         <OurServices />
+        <Testimonials />
       </main>
     </>
   );
