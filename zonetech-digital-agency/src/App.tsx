@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurCompany from "./components/OurCompany";
@@ -16,6 +17,7 @@ const App = () => {
         <Testimonials />
         <OurCompany />
       </main>
+      <Footer />
     </>
   );
 };
