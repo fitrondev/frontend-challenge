@@ -19,9 +19,9 @@ const Corousel: React.FC<CorouselProps> = ({
   Images,
 }) => {
   return (
-    <div className="relative w-[400px] h-[500px] flex items-center justify-center">
+    <div className="relative w-full h-[350px] sm:w-[400px] sm:h-[500px] 2xl:w-[500px] 2xl:h-[500px] flex items-center justify-center">
       <button
-        className="absolute -left-5 w-10 h-10 rounded-full bg-white flex items-center justify-center border-2 border-blueDark z-50"
+        className="absolute -left-10 sm:-left-5 w-9 h-9 rounded-full bg-white flex items-center justify-center border-2 border-blueDark z-50"
         onClick={prev}
       >
         <FaAngleLeft className="w-4 h-4 text-blueDark" />
@@ -41,7 +41,7 @@ const Corousel: React.FC<CorouselProps> = ({
       </div>
 
       <button
-        className="absolute -right-5 w-10 h-10 rounded-full bg-white flex items-center justify-center border-2 border-blueDark z-50"
+        className="absolute -right-10 sm:-right-5 w-9 h-9 rounded-full bg-white flex items-center justify-center border-2 border-blueDark z-50"
         onClick={next}
       >
         <FaAngleRight className="w-4 h-4 text-blueDark" />
