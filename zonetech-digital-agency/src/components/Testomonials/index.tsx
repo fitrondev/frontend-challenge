@@ -25,10 +25,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section
-      className="pt-14 pb-5 bg-gradient-to-r from-transparent to-orange-50"
-      id="3"
-    >
+    <section className="pt-14 bg-gradient-to-r from-transparent to-orange-50">
       <div className="container space-y-10 sm:space-y-14 lg:space-y-20">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-[30px] md:text-[36px] font-bold text-blueDark text-center">
