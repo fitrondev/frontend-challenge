@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import OurCompany from "./components/OurCompany";
 import OurServices from "./components/OurServices";
 import Testimonials from "./components/Testomonials";
 import TrustedBy from "./components/TrustedBy";
@@ -13,6 +14,7 @@ const App = () => {
         <TrustedBy />
         <OurServices />
         <Testimonials />
+        <OurCompany />
       </main>
     </>
   );
