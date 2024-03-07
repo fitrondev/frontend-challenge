@@ -7,7 +7,7 @@ import Rocket from "../../assets/images/Rocket.svg";
 const OurServices = () => {
   return (
     <section
-      className="pt-16 pb-5 bg-gradient-to-r from-transparent to-orange-50"
+      className="pt-16 bg-gradient-to-r from-transparent to-orange-50"
       id="2"
     >
       <div className="container space-y-14 sm:space-y-28 lg:space-y-36">
