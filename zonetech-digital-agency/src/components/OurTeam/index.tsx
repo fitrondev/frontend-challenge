@@ -9,9 +9,9 @@ const OurTeam = () => {
             Our Master <span className="text-yellow">Brains</span>
           </h1>
           <p className="lg:w-[837px] text-[14px] leading-5 md:text-[18px] md:leading-7 text-center">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            Our team is our biggest asset. We have a team of highly skilled
+            professionals. Their work and are always ready to take up new
+            challenges.
           </p>
         </div>
 

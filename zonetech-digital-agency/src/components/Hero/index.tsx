@@ -25,8 +25,8 @@ const Hero = () => {
           </h1>
 
           <p className="text-[14px] md:text-base sm:w-[550px] lg:w-full">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            aut asperiores magni natus unde, Blanditiis.
+            Welcome to Zonetech Digital Agency! We are here to help you achieve
+            success in your digital endeavors.
           </p>
 
           <div className="py-3 lg:py-[22px]">

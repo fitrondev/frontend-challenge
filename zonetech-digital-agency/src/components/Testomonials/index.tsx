@@ -32,9 +32,8 @@ const Testimonials = () => {
             Case Studies <span className="text-yellow">and Testimonials</span>
           </h1>
           <p className="lg:w-[837px] text-[14px] leading-5 md:text-[18px] md:leading-7 text-center">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            We have worked with a clients from different industries and have
+            helped them achieve their goals. Here's what they have to say about.
           </p>
         </div>
 
@@ -47,19 +46,18 @@ const Testimonials = () => {
 
               <div className="text-[16px] leading-6 lg:text-[18px] lg:leading-7 sm:text-center lg:text-start space-y-4 md:space-y-10">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s
+                  Zone Tech Digital Agency has significantly improved our
+                  overall digital marketing strategy. Highly recommended.
                 </p>
 
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum
+                  The team at Zone Tech Digital Agency is knowledgeable and
+                  experienced in digital marketing. A great partner.
                 </p>
 
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum
+                  Their innovative approach to digital marketing has helped our
+                  business grow. We are very satisfied.
                 </p>
               </div>
             </div>

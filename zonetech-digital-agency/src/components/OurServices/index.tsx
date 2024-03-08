@@ -16,9 +16,7 @@ const OurServices = () => {
             Our <span className="text-yellow">Services</span>
           </h1>
           <p className="lg:w-[837px] text-[14px] leading-5 md:text-[18px] md:leading-7 text-center">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            We have a wide range of services to offer. We are here to help you.
           </p>
         </div>
 
@@ -27,11 +25,13 @@ const OurServices = () => {
             image={Shopify}
             backgorund="bg-blueDark"
             title="Shopify Development"
+            desc="We help you build and customize your online store using the Shopify. We optimizing your store for better performance and conversion rates."
           />
           <ServicesCard
             image={Rocket}
             backgorund="bg-yellow"
             title="Digital Marketing"
+            desc="We help you to grow your business with our digital marketing services. We help you to reach your target audience and increase your sales."
           />
         </div>
       </div>

@@ -8,11 +8,11 @@ import Team6 from "../assets/images/Team6.jpg";
 export const TeamsData = [
   {
     id: 1,
-    name: "Fitron Ansori",
+    name: "Clint Barton",
     position: "CEO",
     images: Team1,
     comment:
-      "Fusce iaculis tincidunt fermentum. Nam tempor viverra leo a fringilla. Etiam eget nulla nec dui facilisis dignissim. Duis vel cursus.",
+      "I'm a CEO of this company. I am very happy to work with you. I hope we can work together for a long time",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ export const TeamsData = [
     position: "CTO",
     images: Team2,
     comment:
-      "Quisque eu consequat erat. Nam diam massa, varius at auctor vel, consequat eu purus. Sed feugiat arcu sed lectus dignissim.",
+      "I'm a CTO of this company. I am very happy to work with you. I hope we can work together for a long time",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const TeamsData = [
     position: "Marketing Manager",
     images: Team3,
     comment:
-      "Nullam ultricies vehicula urna et ultricies. Maecenas fringilla molestie lacus at molestie. Suspendisse pulvinar viverra dui sit amet semper. Cras.",
+      "I'm a Marketing Manager. I am very happy to work with you. I hope we can work together for a long time",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ export const TeamsData = [
     position: "Engineering Manager",
     images: Team4,
     comment:
-      "Nullam ultricies vehicula urna et ultricies. Maecenas fringilla molestie lacus at molestie. Suspendisse pulvinar viverra dui sit amet semper. Cras.",
+      "I'm a Engineering Manager. I am very happy to work with you. I hope we can work together for a long time",
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ export const TeamsData = [
     position: "Tech Lead",
     images: Team5,
     comment:
-      "Nullam ultricies vehicula urna et ultricies. Maecenas fringilla molestie lacus at molestie. Suspendisse pulvinar viverra dui sit amet semper. Cras.",
+      "I'm a Tech Lead. I am very happy to work with you. I hope we can work together for a long time",
   },
   {
     id: 6,
@@ -52,6 +52,6 @@ export const TeamsData = [
     position: "Developer",
     images: Team6,
     comment:
-      "Nullam ultricies vehicula urna et ultricies. Maecenas fringilla molestie lacus at molestie. Suspendisse pulvinar viverra dui sit amet semper. Cras.",
+      "I'm a Developer. I am very happy to work with you. I hope we can work together for a long time",
   },
 ];

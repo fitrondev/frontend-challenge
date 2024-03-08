@@ -18,15 +18,18 @@ const OurCompany = () => {
           </h1>
 
           <p className="text-[14px] leading-5 md:text-[18px] md:leading-7">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            Culture of our company is the foundation of our success. We believe
+            in a culture of collaboration, innovation, and continuous learning.
+            We are committed to providing a work environment that encourages
+            creativity, teamwork, and personal growth.
           </p>
 
           <p className="text-[14px] leading-5 md:text-[18px] md:leading-7">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            We are passionate about our work and are dedicated to delivering the
+            best results for our clients. Our culture is what sets us apart from
+            other digital marketing agencies. We are proud of our team and the
+            work we do. Our culture is what makes us unique and drives our
+            success.
           </p>
         </div>
       </div>

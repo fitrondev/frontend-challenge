@@ -8,21 +8,21 @@ export const CorouselData = [
     id: 1,
     name: "Fitron Ansori",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in justo sollicitudin, lobortis turpis vel, dapibus tellus. Lorem ipsum dolor.",
+      "Zone Tech Digital Agency has significantly improved our overall digital marketing strategy. Highly recommended!",
     image: Profile1,
   },
   {
     id: 2,
     name: "Azkia Sururi",
     comment:
-      "Donec a feugiat sapien. Quisque vulputate efficitur lorem, vel molestie ligula mattis vitae. Nullam egestas lorem et pulvinar dapibus.",
+      "The team at Zone Tech Digital Agency is knowledgeable and experienced in digital marketing. A great partner!",
     image: Profile2,
   },
   {
     id: 3,
     name: "Nara Husnina",
     comment:
-      "Ut a maximus neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent imperdiet diam.",
+      "Their innovative approach to digital marketing has helped our business grow. We are very satisfied!",
     image: Profile3,
   },
 ];

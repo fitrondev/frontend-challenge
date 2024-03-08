@@ -3,12 +3,14 @@ type ServicesCardProps = {
   image: string;
   backgorund?: string;
   title: string;
+  desc?: string;
 };
 
 const ServicesCard: React.FC<ServicesCardProps> = ({
   image,
   backgorund,
   title,
+  desc,
 }) => {
   return (
     <Card className="w-full h-[290px] sm:w-[463px] sm:h-[330px] flex flex-col items-center gap-5 border-2 border-solid border-[#f3f4f5] pt-12 sm:pt-[88px] px-8 shadow-sm sm:shadow-lg rounded-xl">
@@ -22,11 +24,7 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
         <h3 className="text-[18px] lg:text-[24px] font-semibold text-blueDark">
           {title}
         </h3>
-        <p className="text-[14px] lg:text-base">
-          “ Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s. Lorem. “
-        </p>
+        <p className="text-[14px] lg:text-base">“ {desc} “</p>
       </div>
 
       <div>
