@@ -1,3 +1,4 @@
+import Email from "./components/Email";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,6 +19,7 @@ const App = () => {
         <Testimonials />
         <OurCompany />
         <OurTeam />
+        <Email />
       </main>
       <Footer />
     </>
