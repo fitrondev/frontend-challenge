@@ -1,0 +1,57 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&family=Montserrat:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-bodyColor text-textColor font-montserrat text-base;
+  }
+
+  section {
+    @apply py-20 px-4;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-montaguSlab text-titleColor font-medium;
+  }
+
+  img {
+    @apply block w-full h-auto;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply max-w-screen-xl mx-auto px-6;
+  }
+
+  .grid {
+    @apply grid gap-6;
+  }
+
+  .title__section {
+    @apply text-center text-2xl font-montaguSlab mb-8;
+  }
+
+  .main {
+    @apply overflow-hidden;
+  }
+}
