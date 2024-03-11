@@ -16,10 +16,6 @@
 }
 
 @layer utilities {
-  .container {
-    @apply max-w-[1440px] mx-auto 2xl:px-10 lg:px-[120px];
-  }
-
   .linear-gradient {
     @apply bg-gradient-to-br from-blue-500 to-slate-50;
   }
