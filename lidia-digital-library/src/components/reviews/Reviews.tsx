@@ -32,19 +32,19 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <section className="py-[200px]">
-      <div className="container space-y-[90px]">
+    <section className="py-[100px] lg:py-[200px]">
+      <div className="container space-y-10 lg:space-y-[90px]">
         <div>
           <h1 className="text-[18px] font-bold uppercase tracking-[9.5%] text-primary">
             Reviews
           </h1>
 
-          <h2 className="text-[48px] leading-[65px] text-black font-extrabold">
+          <h2 className="text-[30px] sm:text-[48px] leading-[65px] text-black font-extrabold">
             • Reviews of Others
           </h2>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between gap-10 lg:gap-0">
           {reviews.map((item) => (
             <Card
               key={item.id}

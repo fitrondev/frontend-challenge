@@ -7,16 +7,16 @@ type CardProps = {
 
 const Card: React.FC<CardProps> = ({ img, review, name, job }) => {
   return (
-    <div className="w-[350px] h-[450px] bg-white p-10 shadow-2xl flex flex-col items-center gap-8">
-      <div className="w-[150px] h-[150px] rounded-full ">
+    <div className="w-[320px] h-[405px] lg:w-[350px] lg:h-[450px] bg-white p-10 shadow-xl lg:shadow-2xl flex flex-col items-center gap-8">
+      <div className="w-[120px] h-[120px] lg:w-[150px] lg:h-[150px] rounded-full ">
         <img
           src={img}
           alt=""
           className="w-full h-full rounded-full object-cover"
         />
       </div>
-      <div className="text-center space-y-[35px]">
-        <p className="w-[270px] text-[18px] leading-[30px] font-medium">
+      <div className="text-center space-y-6 lg:space-y-[35px]">
+        <p className="lg:w-[270px] lg:text-[18px] lg:leading-[30px] font-medium">
           {review}
         </p>
         <div className="space-y-5">

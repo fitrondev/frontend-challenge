@@ -25,29 +25,33 @@ const featuresImg = [
 
 const Features = () => {
   return (
-    <section className="py-[200px]">
-      <div className="container space-y-[90px]">
+    <section className="py-[100px] lg:py-[200px]">
+      <div className="container space-y-10 lg:space-y-[90px]">
         <div>
           <h1 className="text-[18px] font-bold uppercase tracking-[9.5%] text-primary">
             Features
           </h1>
 
-          <h2 className="text-[48px] leading-[65px] text-black font-extrabold">
+          <h2 className="text-[30px] sm:text-[48px] leading-[65px] text-black font-extrabold">
             • What You Can Do?
           </h2>
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row items-center sm:justify-between gap-5 sm:gap-0">
           {featuresImg.map((item) => (
             <div
               key={item.id}
-              className="w-[280px] h-[270px] flex flex-col items-center justify-center gap-5"
+              className="w-[220px] lg:w-[280px] lg:h-[270px] flex flex-col items-center justify-center gap-5"
             >
-              <div className="w-[101px] h-[101px] bg-primary rounded-3xl flex items-center justify-center shadow-2xl">
+              <div className="w-[80px] h-[80px] lg:w-[101px] lg:h-[101px] bg-primary rounded-3xl flex items-center justify-center shadow-2xl">
                 {item.img}
               </div>
-              <h1 className="text-[24px] font-bold text-black">{item.title}</h1>
-              <p className="font-medium text-center">{item.desc}</p>
+              <h1 className="text-[20px] lg:text-[24px] font-bold text-black">
+                {item.title}
+              </h1>
+              <p className="text-base lg:font-medium text-center">
+                {item.desc}
+              </p>
             </div>
           ))}
         </div>

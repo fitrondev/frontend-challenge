@@ -1,13 +1,13 @@
 const Location = () => {
   return (
-    <section className="pb-[200px]">
-      <div className="container space-y-[90px]">
+    <section className="pb-[100px] lg:pb-[200px]">
+      <div className="container space-y-10 lg:space-y-[90px]">
         <div>
           <h1 className="text-[18px] font-bold uppercase tracking-[9.5%] text-primary">
             Location
           </h1>
 
-          <h2 className="text-[48px] leading-[65px] text-black font-extrabold">
+          <h2 className="text-[30px] sm:text-[48px] leading-[65px] text-black font-extrabold">
             • Our Library Location
           </h2>
         </div>
