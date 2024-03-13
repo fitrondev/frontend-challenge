@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
+// images
 import Logo from "../../assets/images/Logo.svg";
+
+// icons
 import { RiMenu3Fill } from "react-icons/ri";
+import { IoMdClose } from "react-icons/io";
 
 const links = [
   {
@@ -92,7 +96,11 @@ const Navbar = () => {
           onClick={handleOpen}
           className="lg:hidden select-none cursor-pointer"
         >
-          <RiMenu3Fill className="w-6 h-6 text-black" />
+          {!open ? (
+            <RiMenu3Fill className="w-6 h-6 text-black" />
+          ) : (
+            <IoMdClose className="w-6 h-6 text-black" />
+          )}
         </div>
 
         <div className="hidden lg:block z-50">
