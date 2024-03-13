@@ -9,7 +9,7 @@ const Register = () => {
         <img src={Logo} alt="" className="w-[80px] h-[80px]" />
       </div>
 
-      <div className="w-[730px] p-10 bg-white shadow-xl rounded-lg border-2 border-t-4 border-t-primary space-y-5">
+      <div className="w-[350px] sm:w-[730px] p-10 bg-white shadow-xl rounded-lg border-2 border-t-4 border-t-primary space-y-5">
         <div className="space-y-2">
           <h1 className="text-[30px] font-semibold">Register</h1>
           <p className="text-[18px] font-medium">
@@ -18,7 +18,7 @@ const Register = () => {
         </div>
 
         <div className="space-y-5">
-          <form className="grid grid-cols-2 gap-4">
+          <form className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <RegisterInput
               label="Full Name"
               type="text"

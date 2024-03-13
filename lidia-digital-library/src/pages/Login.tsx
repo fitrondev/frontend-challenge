@@ -8,7 +8,7 @@ const Login = () => {
         <img src={Logo} alt="" className="w-[80px] h-[80px]" />
       </div>
 
-      <div className="w-[400px] h-[380px] p-10 bg-white shadow-xl rounded-lg border-2 border-t-4 border-t-primary space-y-5">
+      <div className="w-[350px] sm:w-[400px] h-[380px] p-10 bg-white shadow-xl rounded-lg border-2 border-t-4 border-t-primary space-y-5">
         <div className="space-y-2">
           <h1 className="text-[30px] font-semibold">Login</h1>
           <p className="text-[18px] font-medium">
