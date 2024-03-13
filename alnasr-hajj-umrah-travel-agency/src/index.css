@@ -1,0 +1,43 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+tailwind base digunakan untuk mengatur style dasar dari elemen html seperti font-size, font-family, margin, padding, dan lain-lain.
+
+tailwind components digunakan untuk mengatur style dari elemen html yang lebih spesifik seperti button, form, card, dan lain-lain.
+
+tailwind utilities digunakan untuk mengatur style dari elemen html yang lebih spesifik seperti margin, padding, text-align, 
+*/
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    @apply p-0 m-0 box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-nunito text-base text-textPara;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-kufam text-textHeading;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
