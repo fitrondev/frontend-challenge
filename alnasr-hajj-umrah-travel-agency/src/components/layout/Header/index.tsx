@@ -33,7 +33,7 @@ const Header = () => {
   return (
     <header
       className={`py-2 lg:py-4 padding: md, ${
-        scroll && "sticky top-0 left-0 bg-white shadow-md"
+        scroll && "sticky top-0 left-0 bg-white shadow-md z-50"
       }`}
     >
       <nav className="container flex items-end justify-between">
