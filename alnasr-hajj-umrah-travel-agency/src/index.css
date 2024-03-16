@@ -42,7 +42,11 @@ tailwind utilities digunakan untuk mengatur style dari elemen html yang lebih sp
   }
 
   .btn__secondary {
-    @apply bg-transparent text-darkOrange font-bold py-3 px-6 rounded-lg text-base border border-darkOrange hover:bg-darkGreen hover:border-darkGreen hover:text-black transition-all duration-300 ease-in-out;
+    @apply bg-transparent text-darkOrange font-bold py-3 px-6 rounded-lg text-base border border-darkOrange hover:bg-darkGreen hover:border-darkGreen hover:text-white transition-all duration-300 ease-in-out;
+  }
+
+  .card {
+    @apply bg-white shadow-lg lg:shadow-xl border border-gray-200 rounded-lg p-5;
   }
 }
 
