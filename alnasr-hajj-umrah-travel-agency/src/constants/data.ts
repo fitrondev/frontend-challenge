@@ -101,3 +101,32 @@ export const packagesItem: PackageItem[] = [
     icon: [IoAirplane, FaTicketSimple, FaHotel, GrVisa, MdFoodBank],
   },
 ];
+
+import Garuda from "../assets/Garuda.svg";
+import Qatar from "../assets/Qatar.svg";
+import Emirates from "../assets/Emirates.svg";
+import Saudi from "../assets/Saudi.svg";
+import LionAir from "../assets/LionAir.svg";
+
+export const accomadationLogo = [
+  {
+    id: 1,
+    img: Garuda,
+  },
+  {
+    id: 2,
+    img: Qatar,
+  },
+  {
+    id: 3,
+    img: Emirates,
+  },
+  {
+    id: 4,
+    img: Saudi,
+  },
+  {
+    id: 5,
+    img: LionAir,
+  },
+];
