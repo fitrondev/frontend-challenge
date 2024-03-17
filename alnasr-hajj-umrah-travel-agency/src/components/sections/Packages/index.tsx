@@ -19,7 +19,7 @@ const Packages = () => {
           </p>
         </div>
 
-        <div className="py-14 flex flex-wrap items-center justify-center md:items-start md:justify-between gap-y-8 lg:gap-y-[50px]">
+        <div className="pt-14 flex flex-wrap items-center justify-center md:items-start md:justify-between gap-y-8 lg:gap-y-[50px]">
           {packagesItem.map((item) => (
             <PackageCard
               key={item.id}
