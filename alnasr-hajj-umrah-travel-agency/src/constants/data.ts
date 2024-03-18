@@ -130,3 +130,71 @@ export const accomadationLogo = [
     img: LionAir,
   },
 ];
+
+import {
+  MdOutlineSecurity,
+  MdHotel,
+  MdOutlineCardMembership,
+} from "react-icons/md";
+import { BsStack } from "react-icons/bs";
+import { FaBusSimple } from "react-icons/fa6";
+import { GiHeartPlus } from "react-icons/gi";
+import { TbVaccine } from "react-icons/tb";
+
+type FacilitiesItem = {
+  id: number;
+  icon: IconType;
+  title: string;
+  desc: string;
+};
+
+export const facilitiesItem: FacilitiesItem[] = [
+  {
+    id: 1,
+    icon: MdOutlineSecurity,
+    title: "Safety & Security",
+    desc: "We take care of your security in 24 hours",
+  },
+  {
+    id: 2,
+    icon: BsStack,
+    title: "Conseling",
+    desc: "Provide counseling to stay fit spiritually and religius",
+  },
+  {
+    id: 3,
+    icon: FaBusSimple,
+    title: "Vehicle In Saudi",
+    desc: "Bus and Car Vehicles While in Saudi",
+  },
+  {
+    id: 4,
+    icon: GiHeartPlus,
+    title: "Health In Saudi",
+    desc: "Free Health Facilities for every customer",
+  },
+  {
+    id: 5,
+    icon: MdHotel,
+    title: "Hostel Rate 5",
+    desc: "5 star hotel accommodation every customer",
+  },
+  {
+    id: 6,
+    icon: MdFoodBank,
+    title: "Food & Drink",
+    desc: "Provide food and drinks while in Saudi",
+  },
+  {
+    id: 7,
+    icon: MdOutlineCardMembership,
+    title: "Membership",
+    desc: "Obtain a membership card for each customer",
+  },
+  {
+    id: 8,
+    icon: TbVaccine,
+    title: "Vaccine",
+    desc: "Free meningitis vaccine for all customers",
+  },
+];
