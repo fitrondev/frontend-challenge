@@ -198,3 +198,119 @@ export const facilitiesItem: FacilitiesItem[] = [
     desc: "Free meningitis vaccine for all customers",
   },
 ];
+
+import Testimonial1 from "../assets/Testimonial1.jpg";
+import Testimonial2 from "../assets/Testimonial2.jpg";
+import Testimonial3 from "../assets/Testimonial3.jpg";
+import Testimonial4 from "../assets/Testimonial4.jpg";
+import Testimonial5 from "../assets/Testimonial5.jpg";
+import Testimonial6 from "../assets/Testimonial6.jpg";
+import Testimonial7 from "../assets/Testimonial7.jpg";
+import Testimonial8 from "../assets/Testimonial8.jpg";
+import Testimonial9 from "../assets/Testimonial9.jpg";
+import Testimonial10 from "../assets/Testimonial10.jpg";
+
+type TestimonialsItem = {
+  id: number;
+  Img: string;
+  rating: number;
+  badge: string;
+  name: string;
+  comment: string;
+};
+
+export const testimonialsItem1: TestimonialsItem[] = [
+  {
+    id: 1,
+    Img: Testimonial1,
+    rating: 4.5,
+    badge: "Al Nasr Umrah",
+    name: "Nabila Putri",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 2,
+    Img: Testimonial6,
+    rating: 4.5,
+    badge: "Al Nasr Umrah",
+    name: "Fahmi Ramadhan",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 3,
+    Img: Testimonial2,
+    rating: 4.3,
+    badge: "Al Nasr Hajj Premium",
+    name: "Astari Putri",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 4,
+    Img: Testimonial7,
+    rating: 4.8,
+    badge: "Al Nasr Umrah Premium",
+    name: "Ridwan Fauzi",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 5,
+    Img: Testimonial3,
+    rating: 4.5,
+    badge: "Al Nasr Hajj",
+    name: "Nabila Putri",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+];
+
+export const testimonialsItem2: TestimonialsItem[] = [
+  {
+    id: 1,
+    Img: Testimonial4,
+    rating: 4.5,
+    badge: "Al Nasr Umrah",
+    name: "Azizah Putri",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 2,
+    Img: Testimonial8,
+    rating: 4.5,
+    badge: "Al Nasr Umrah",
+    name: "Affan Syahputra",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 3,
+    Img: Testimonial5,
+    rating: 4.3,
+    badge: "Al Nasr Hajj Premium",
+    name: "Alya Syafitri",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 4,
+    Img: Testimonial9,
+    rating: 4.8,
+    badge: "Al Nasr Umrah Premium",
+    name: "Hilan Kurniawan",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+  {
+    id: 5,
+    Img: Testimonial10,
+    rating: 4.5,
+    badge: "Al Nasr Hajj",
+    name: "Saamy Wulan",
+    comment:
+      "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+  },
+];
